@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALEX BUENO IMÓVEIS | Imobiliária Premium em Piedade - SP</title>
+    <meta name="description" content="ALEX BUENO IMÓVEIS — Encontre os melhores imóveis em Piedade - SP. Atendimento exclusivo, transparente e personalizado.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            400: '#e6c86e',
+                            500: '#d4af37',
+                            600: '#b89228',
+                        },
+                        dark: {
+                            900: '#0a0a0c',
+                            800: '#121216',
+                            700: '#1c1c22',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background-color: #0a0a0c; color: #f4f0e6; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+        .glass { background: rgba(18, 18, 22, 0.7); backdrop-filter: blur(16px); }
+        .glass-card { background: rgba(28, 28, 34, 0.5); backdrop-filter: blur(12px); border: 1px solid rgba(212, 175, 55, 0.15); }
+        .glass-card:hover { border-color: rgba(212, 175, 55, 0.4); }
+    </style>
+</head>
+<body class="antialiased selection:bg-gold-500 selection:text-dark-900">
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass border-b border-gold-500/20">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-12 h-12 rounded-full overflow-hidden border border-gold-500/40 shadow-lg shadow-gold-500/20 group-hover:scale-105 transition-transform bg-yellow-400">
+                    <img src="https://cowlifhhsrdppbymqsgk.supabase.co/storage/v1/object/sign/site-assets/uploads/1791933107657-gemini-generated-image-pfwb3qpfwb3qpfwb.jpg?token=eyJraWQiOiJlODEyMTYzMS1hNjRkLTQ5N2EtYTA4MS01NTdkNWM1ZjIwY2IiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlLWFzc2V0cy91cGxvYWRzLzE3OTE5MzMxMDc2NTctZ2VtaW5pLWdlbmVyYXRlZC1pbWFnZS1wZndiM3FwZndiM3FwZndiLmpwZyIsInNjb3BlIjoiZG93bmxvYWQiLCJpYXQiOjE3OTE5MzMxMDksImV4cCI6MjEwNzI5MzEwOX0.4aJix6ktLqwh9bycDPjIkr6sFkcfB23VF499E3Ya41A" alt="Alex Bueno Imóveis" class="w-full h-full object-cover">
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-serif text-lg tracking-wider font-bold text-white uppercase">Alex Bueno</span>
+                    <span class="text-[10px] tracking-[0.25em] text-gold-500 uppercase -mt-1 font-medium">Imóveis</span>
+                </div>
+            </a>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm tracking-widest uppercase font-medium text-slate-300">
+                <a href="#inicio" class="hover:text-gold-500 transition-colors">Início</a>
+                <a href="#destaques" class="hover:text-gold-500 transition-colors">Destaques</a>
+                <a href="#servicos" class="hover:text-gold-500 transition-colors">Serviços</a>
+                <a href="#sobre" class="hover:text-gold-500 transition-colors">Sobre</a>
+                <a href="#contato" class="hover:text-gold-500 transition-colors">Contato</a>
+            </nav>
+
+            <a href="https://wa.me/5555153344154?text=Ola%2C%20gostaria%20de%20saber%20mais" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-gold-500 to-gold-600 hover:from-gold-400 hover:to-gold-500 text-dark-900 font-semibold px-6 py-2.5 rounded-full text-xs tracking-wider uppercase transition-all shadow-md shadow-gold-500/10 hover:shadow-gold-500/20 hover:-translate-y-0.5">
+                <span>Atendimento VIP</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="relative min-h-screen flex items-center justify-center pt-24 pb-16 px-6 overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gold-500/10 via-dark-900/80 to-dark-900 z-0"></div>
+        
+        <div class="max-w-5xl mx-auto text-center relative z-10 space-y-8 mt-10">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold-500/30 bg-gold-500/10 text-gold-500 text-xs tracking-[0.2em] uppercase font-medium">
+                <span class="w-1.5 h-1.5 rounded-full bg-gold-500 animate-pulse"></span>
+                Piedade - SP & Região
+            </div>
+
+            <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif font-normal text-white leading-[1.15] tracking-tight">
+                Encontre o imóvel ideal para vivenciar <span class="italic font-light text-gold-500">momentos inesquecíveis</span>
+            </h1>
+
+            <p class="text-slate-400 font-light text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+                Consultoria imobiliária especializada em compra, venda e locação com atendimento exclusivo e transparente.
+            </p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                <a href="https://wa.me/5555153344154?text=Ola%2C%20gostaria%20de%20saber%20mais" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-gold-500 hover:bg-gold-400 text-dark-900 font-semibold px-8 py-4 rounded-full text-sm tracking-wider uppercase transition-all shadow-xl shadow-gold-500/20 hover:scale-105">
+                    Falar com um Consultor
+                </a>
+                <a href="#destaques" class="w-full sm:w-auto border border-gold-500/30 hover:border-gold-500 text-slate-300 hover:text-gold-500 px-8 py-4 rounded-full text-sm tracking-wider uppercase transition-all">
+                    Ver Oportunidades
+                </a>
+            </div>
+
+            <div class="pt-8 flex items-center justify-center gap-3 text-sm text-slate-400">
+                <div class="flex text-gold-500">★★★★★</div>
+                <span>Atendimento referência em Piedade - SP</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- IMOVEIS EM DESTAQUE -->
+    <section id="destaques" class="py-24 px-6 border-t border-gold-500/10 bg-dark-800/40">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+                <div class="space-y-3">
+                    <span class="text-xs text-gold-500 tracking-[0.25em] uppercase font-semibold">Portfólio Exclusivo</span>
+                    <h2 class="text-3xl sm:text-5xl font-serif text-white">Oportunidades em Destaque</h2>
+                </div>
+                <p class="text-slate-400 max-w-md text-sm font-light leading-relaxed">
+                    Opções selecionadas que combinam excelente localização, conforto e alto valor de investimento.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1: Casa de Campo na Floresta -->
+                <div class="glass-card rounded-2xl overflow-hidden transition-all duration-300 group hover:-translate-y-1">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80" alt="Casa de Campo na Floresta" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-dark-900/80 backdrop-blur-md px-3 py-1 rounded-full text-xs text-gold-500 font-medium">Venda Exclusiva</div>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="font-serif text-xl text-white">Casa de Campo em Meio à Floresta</h3>
+                        <p class="text-slate-400 text-sm font-light">Refúgio privativo cercado por mata nativa, ideal para quem busca paz, privacidade e ar puro.</p>
+                        <div class="pt-4 border-t border-gold-500/10 flex items-center justify-between">
+                            <span class="text-lg font-serif text-gold-500 font-semibold">R$ 1.500.000</span>
+                            <a href="https://wa.me/5555153344154?text=Ola%2C%20gostaria%20de%20saber%20mais" target="_blank" class="text-gold-500 hover:underline text-xs tracking-wider uppercase font-semibold">Tenho Interesse →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: Roça com Plantação -->
+                <div class="glass-card rounded-2xl overflow-hidden transition-all duration-300 group hover:-translate-y-1">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80" alt="Roça com Plantação" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-dark-900/80 backdrop-blur-md px-3 py-1 rounded-full text-xs text-gold-500 font-medium">Propriedade Rural</div>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="font-serif text-xl text-white">Propriedade Rural com Plantação</h3>
+                        <p class="text-slate-400 text-sm font-light">Roça produtiva com solo fértil, infraestrutura completa para cultivo e moradia tranquila no campo.</p>
+                        <div class="pt-4 border-t border-gold-500/10 flex items-center justify-between">
+                            <span class="text-lg font-serif text-gold-500 font-semibold">R$ 500.000</span>
+                            <a href="https://wa.me/5555153344154?text=Ola%2C%20gostaria%20de%20saber%20mais" target="_blank" class="text-gold-500 hover:underline text-xs tracking-wider uppercase font-semibold">Tenho Interesse →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: Casa Frente à Praia -->
+                <div class="glass-card rounded-2xl overflow-hidden transition-all duration-300 group hover:-translate-y-1">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80" alt="Casa de Frente com a Praia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-dark-900/80 backdrop-blur-md px-3 py-1 rounded-full text-xs text-gold-500 font-medium">Oportunidade Beira-Mar</div>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="font-serif text-xl text-white">Sobrado de Frente para a Praia</h3>
+                        <p class="text-slate-400 text-sm font-light">Casa de 2 andares pé na areia com vista deslumbrante para o mar e brisa constante.</p>
+                        <div class="pt-4 border-t border-gold-500/10 flex items-center justify-between">
+                            <span class="text-lg font-serif text-gold-500 font-semibold">R$ 250.000</span>
+                            <a href="https://wa.me/5555153344154?text=Ola%2C%20gostaria%20de%20saber%20mais" target="_blank" class="text-gold-500 hover:underline text-xs tracking-wider uppercase font-semibold">Tenho Interesse →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4: Casa Frente à Maré e Lago -->
+                <div class="glass-card rounded-2xl overflow-hidden transition-all duration-300 group hover:-translate-y-1">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=80" alt="Casa Frente à Maré e Lago" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-dark-900/80 backdrop-blur-md px-3 py-1 rounded-full text-xs text-gold-500 font-medium">Vista para as Águas</div>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="font-serif text-xl text-white">Residência Frente à Maré e Lago</h3>
+                        <p class="text-slate-400 text-sm font-light">Localização única combinando a tranquilidade de um lago com a vista natural para a maré.</p>
+                        <div class="pt-4 border-t border-gold-500/10 flex items-center justify-between">
+                            <span class="text-lg font-serif text-gold-500 font-semibold">R$ 750.000</span>
+                            <a href="https://wa.me/5555153344154?text=Ola%2C%20gostaria%20de%20saber%20mais" target="_blank" class="text-gold-500 hover:underline text-xs tracking-wider uppercase font-semibold">Tenho Interesse →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5: Casa com Garagem Subterrânea e Laje -->
+                <div class="glass-card rounded-2xl overflow-hidden transition-all duration-300 group hover:-translate-y-1">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Casa com Garagem Subterrânea" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-dark-900/80 backdrop-blur-md px-3 py-1 rounded-full text-xs text-gold-500 font-medium">Projeto Moderno</div>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="font-serif text-xl text-white">Casa com Garagem Subterrânea</h3>
+                        <p class="text-slate-400 text-sm font-light">Estrutura funcional com laje simples, excelente aproveitamento de terreno e amplo espaço coberto.</p>
+                        <div class="pt-4 border-t border-gold-500/10 flex items-center justify-between">
+                            <span class="text-lg font-serif text-gold-500 font-semibold">Sob Consulta</span>
+                            <a href="https://wa.me/5555153344154?text=Ola%2C%20gostaria%20de%20saber%20mais" target="_blank" class="text-gold-500 hover:underline text-xs tracking-wider uppercase font-semibold">Tenho Interesse →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6: Residência Urbana -->
+                <div class="glass-card rounded-2xl overflow-hidden transition-all duration-300 group hover:-translate-y-1">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80" alt="Residência de Alto Padrão" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-dark-900/80 backdrop-blur-md px-3 py-1 rounded-full text-xs text-gold-500 font-medium">Alto Padrão</div>
+                    </div>
+                    <div class="p-6 space-y-4">
+                        <h3 class="font-serif text-xl text-white">Residência Urbana em Piedade</h3>
+                        <p class="text-slate-400 text-sm font-light">Design moderno, excelente localização perto do centro e acabamento refinado.</p>
+                        <div class="pt-4 border-t border-gold-500/10 flex items-center justify-between">
+                            <span class="text-xs text-slate-400">Centro, Piedade - SP</span>
+                            <a href="https://wa.me/5555153344154?text=Ola%2C%20gostaria%20de%20saber%20mais" target="_blank" class="text-gold-500 hover:underline text-xs tracking-wider uppercase font-semibold">Consultar Valor →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICOS -->
+    <section id="servicos" class="py-24 px-6 border-t border-gold-500/10">
+        <div class="max-w-7xl mx-auto space-y-16">
+            <div class="text-center max-w-2xl mx-auto space-y-4">
+                <span class="text-xs text-gold-500 tracking-[0.25em] uppercase font-semibold">Soluções Imobiliárias</span>
+                <h2 class="text-3xl sm:text-5xl font-serif text-white">O que fazemos por você</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-card p-8 rounded-2xl space-y-4">
+                    <span class="text-3xl font-serif text-gold-500">01</span>
+                    <h3 class="text-xl font-serif text-white">Compra e Venda</h3>
+                    <p class="text-slate-400 font-light text-sm leading-relaxed">
+                        Curadoria personalizada de imóveis e negociação ética e transparente do início ao encerramento do contrato.
+                    </p>
+                </div>
+
+                <div class="glass-card p-8 rounded-2xl space-y-4">
+                    <span class="text-3xl font-serif text-gold-500">02</span>
+                    <h3 class="text-xl font-serif text-white">Locação Sem Complicação</h3>
+                    <p class="text-slate-400 font-light text-sm leading-relaxed">
+                        Análise de crédito rigorosa, vistorias detalhadas e suporte jurídico completo para proprietários e inquilinos.
+                    </p>
+                </div>
+
+                <div class="glass-card p-8 rounded-2xl space-y-4">
+                    <span class="text-3xl font-serif text-gold-500">03</span>
+                    <h3 class="text-xl font-serif text-white">Avaliação Mercadológica</h3>
+                    <p class="text-slate-400 font-light text-sm leading-relaxed">
+                        Precificação justa e precisa baseada em dados reais e histórico do mercado imobiliário regional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE NOS -->
+    <section id="sobre" class="py-24 px-6 border-t border-gold-500/10 bg-dark-800/40">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6">
+                <span class="text-xs text-gold-500 tracking-[0.25em] uppercase font-semibold">Tradição & Confiança</span>
+                <h2 class="text-3xl sm:text-5xl font-serif text-white leading-tight">
+                    Sobre a ALEX BUENO IMÓVEIS
+                </h2>
+                <p class="text-slate-300 font-light leading-relaxed">
+                    Somos referência no mercado imobiliário da região de Piedade - SP. Nosso compromisso é entregar um atendimento humano, ágil e focado na real necessidade de cada cliente.
+                </p>
+                <div class="pt-4 grid grid-cols-2 gap-6 border-t border-gold-500/10">
+                    <div>
+                        <span class="block text-2xl font-serif text-gold-500">Atendimento</span>
+                        <span class="text-xs text-slate-400 uppercase tracking-wider">Personalizado</span>
+                    </div>
+                    <div>
+                        <span class="block text-2xl font-serif text-gold-500">Piedade - SP</span>
+                        <span class="text-xs text-slate-400 uppercase tracking-wider">Localização Privilegiada</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glass-card p-8 rounded-3xl space-y-6">
+                <h3 class="font-serif text-2xl text-white">Informações de Contato</h3>
+                
+                <div class="space-y-4 text-sm font-light text-slate-300">
+                    <div class="flex items-start gap-3">
+                        <span class="text-gold-500 font-bold">📍</span>
+                        <div>
+                            <strong class="block text-white font-medium">Endereço</strong>
+                            Av. General Waldomiro de Lima, 75 - Centro, Piedade - SP, 18170-000
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3">
+                        <span class="text-gold-500 font-bold">📞</span>
+                        <div>
+                            <strong class="block text-white font-medium">Telefone / WhatsApp</strong>
+                            <a href="https://wa.me/5555153344154?text=Ola%2C%20gostaria%20de%20saber%20mais" target="_blank" class="hover:text-gold-500 transition-colors">+55 15 3344-1543</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="https://maps.google.com/?cid=12097637030160008300&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA" target="_blank" rel="noopener noreferrer" class="inline-block w-full text-center border border-gold-500/30 hover:border-gold-500 text-gold-500 py-3 rounded-xl text-xs uppercase tracking-wider font-semibold transition-all">
+                    Abrir no Google Maps
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO / MAPA -->
+    <section id="contato" class="py-24 px-6 border-t border-gold-500/10">
+        <div class="max-w-7xl mx-auto space-y-12">
+            <div class="glass-card rounded-3xl p-8 sm:p-12 text-center space-y-6 max-w-4xl mx-auto">
+                <h2 class="text-3xl sm:text-5xl font-serif text-white">Pronto para encontrar seu novo imóvel?</h2>
+                <p class="text-slate-300 font-light max-w-xl mx-auto text-sm sm:text-base">
+                    Entre em contato conosco diretamente pelo WhatsApp. Nossa equipe está pronta para lhe atender sem compromisso.
+                </p>
+                <div class="pt-4">
+                    <a href="https://wa.me/5555153344154?text=Ola%2C%20gostaria%20de%20saber%20mais" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-gold-500 hover:bg-gold-400 text-dark-900 font-semibold px-10 py-4 rounded-full text-sm tracking-wider uppercase transition-all shadow-xl shadow-gold-500/20">
+                        Iniciar Conversa no WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <!-- Mapa embutido -->
+            <div class="rounded-3xl overflow-hidden border border-gold-500/20 h-80">
+                <iframe title="Mapa de Localização" loading="lazy" class="w-full h-full border-0" src="https://maps.google.com/maps?q=Av.%20General%20Waldomiro%20de%20Lima%2C%2075%20-%20Centro%2C%20Piedade%20-%20SP%2C%2018170-000&output=embed"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 px-6 border-t border-gold-500/10 bg-dark-900 text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
+            <span>© 2026 ALEX BUENO IMÓVEIS. Todos os direitos reservados.</span>
+            <span>Av. General Waldomiro de Lima, 75 - Centro, Piedade - SP</span>
+        </div>
+    </footer>
+
+    <!-- BOTÕES FLUTUANTES -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+        <!-- BOTÃO INSTAGRAM -->
+        <a href="https://www.instagram.com/alexbuenoimoveis/" target="_blank" rel="noopener noreferrer" title="Siga no Instagram" class="bg-gradient-to-tr from-amber-500 via-rose-500 to-purple-600 hover:opacity-90 text-white p-4 rounded-full shadow-2xl shadow-rose-500/30 transition-all hover:scale-110 flex items-center justify-center">
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+        </a>
+
+        <!-- BOTÃO WHATSAPP -->
+        <a href="https://wa.me/5555153344154?text=Ola%2C%20gostaria%20de%20saber%20mais" target="_blank" rel="noopener noreferrer" title="Fale no WhatsApp" class="bg-emerald-500 hover:bg-emerald-400 text-white p-4 rounded-full shadow-2xl shadow-emerald-500/30 transition-all hover:scale-110 flex items-center justify-center">
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+            </svg>
+        </a>
+    </div>
+
+</body>
+</html>
